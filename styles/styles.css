@@ -483,7 +483,13 @@ section {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+/*fix para img de todo list*/
+.portfolios .portfolio-item img.fit-contain {
+  object-fit: contain;
+  background-color: #f7a94a; /* color del gradiente, para que no se vea un hueco blanco */
 }
 
 .portfolios .portfolio-item .hover-items {
