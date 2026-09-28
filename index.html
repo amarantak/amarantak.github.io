@@ -1,13 +1,23 @@
 <!doctype html>
 <html lang="en">
+  <!-- ==================================================
+       HEAD: meta, título, estilos, fuentes e iconos
+       ================================================== -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amaranta Kruger</title>
+    <title>Amaranta Kruger | Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Amaranta (Amy) Kruger, Full-Stack Developer in Barcelona. PHP, Laravel, JavaScript and Vue.js web apps, APIs and server infrastructure."
+    />
+    <!-- Hoja de estilos propia -->
     <link rel="stylesheet" href="styles/styles.css" />
+    <!-- Google Fonts (preconnect) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Font Awesome (iconos) -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -15,27 +25,34 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Fuente Poppins -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap"
       rel="stylesheet"
     />
   </head>
+  <!-- ================= FIN HEAD ================= -->
 
   <body class="main-content">
+    <!-- ==================================================
+         HEADER / HERO (#home): foto, nombre y botón CV
+         ================================================== -->
     <header class="container header active" id="home">
       <div class="header-content">
+        <!-- Hero: columna izquierda (imagen) -->
         <div class="left-header">
           <div class="h-shape"></div>
           <div class="image">
-            <img src="img/hero.png" alt="Image of Amaranta" />
+            <img src="img/hero.png" alt="Portrait of Amaranta Kruger" />
           </div>
         </div>
+        <!-- Hero: columna derecha (texto + botón descargar CV) -->
         <div class="right-header">
           <h1 class="name">
             Hi, I'm<br /><span>Amy Kruger</span><br />
             A Full-Stack Developer.
           </h1>
-          <p>I love to create responsive web apps.</p>
+          <p>I build web apps, from the first sketch to the server.</p>
           <div class="btn-con">
             <a href="resume.pdf" class="main-btn" download>
               <span class="btn-text">Download Resume</span>
@@ -45,31 +62,40 @@
         </div>
       </div>
     </header>
+    <!-- ================= FIN HEADER / HERO ================= -->
+
     <main>
+      <!-- ==================================================
+           ABOUT ME (#about)
+           ================================================== -->
       <section class="container about" id="about">
+        <!-- About: título -->
         <div class="main-title">
           <h2>About <span>me</span><span class="bg-text">About Me</span></h2>
         </div>
         <div class="about-container">
+          <!-- About: texto de presentación (izquierda) -->
           <div class="left-about">
             <h4>Information About me</h4>
             <p>
-              I’m walking my way to a full stack web developer career. Working
-              hard every day to become a better skilled and right-minded
-              professional. I design and create responsive web apps. I have 2+
-              years of professional experience in software development, and I've
-              coding my own websites and app projects since 2021. My tools
-              currently include Php, Js, Css, Html, BS5, JQuery, MySQL. I'm also
-              implementing API solutions (Web, Restful and Third-Party).
+              I'm a Full-Stack Developer based in Barcelona with 3.5+ years of
+              professional experience building and maintaining web applications
+              in PHP (OOP), MySQL and JavaScript, connected through REST and
+              third-party APIs. At BlueMediaAds, a Dutch-owned email marketing
+              company serving the Netherlands, Belgium, Germany, Poland and
+              Switzerland, I built a real-estate CRM integrated with HubSpot,
+              Pipeliner, Stripe and Chargebee, managed a Laravel data-intake
+              API, and took full ownership of production: servers on OVH and
+              Host Europe, DNS, SSL and the email sending infrastructure.
               <br />
               <br />
-              I worked in the advertising and art industries 6+ years, as a
-              Project Manager and Art Director. After that started travelling
-              and I've living in several places in Spain, New Zealand, several
-              countries in Asia and Australia. Covid situation gave the time to
-              stop and rethink about what I wanted for my life and career. And
-              that's when I stared my Web Development journey. And I'm loving
-              it!
+              Before tech, I spent six years as a Project Manager in audiovisual
+              production and advertising in Buenos Aires, working with agencies
+              like BBDO and Ogilvy. That background and my degree in Image and
+              Sound Design give me a real eye for design and UX, and the habit
+              of delivering on tight deadlines. Today I work with Laravel,
+              Vue.js and AI tools every day, including AI-powered apps built on
+              the Claude API.
             </p>
             <div class="btn-con">
               <a href="resume.pdf" class="main-btn" download>
@@ -78,236 +104,330 @@
               </a>
             </div>
           </div>
+          <!-- About: cifras destacadas (derecha) -->
           <div class="right-about">
             <div class="about-item">
               <div class="abt-text">
+                <p class="large-text">3.5+</p>
+                <p class="small-text">
+                  Years as a <br />
+                  Full-Stack Developer
+                </p>
+              </div>
+            </div>
+            <div class="about-item">
+              <div class="abt-text">
+                <p class="large-text">6</p>
+                <p class="small-text">
+                  Years in Project <br />
+                  Management
+                </p>
+              </div>
+            </div>
+            <div class="about-item">
+              <div class="abt-text">
+                <p class="large-text">5</p>
+                <p class="small-text">
+                  European Markets <br />
+                  Served
+                </p>
+              </div>
+            </div>
+            <div class="about-item">
+              <div class="abt-text">
                 <p class="large-text">20+</p>
-                <p class="small-text">
-                  Website Development Projects <br />
-                  Completed
-                </p>
-              </div>
-            </div>
-            <div class="about-item">
-              <div class="abt-text">
-                <p class="large-text">3+</p>
-                <p class="small-text">
-                  Years of coding <br />
-                  experience
-                </p>
-              </div>
-            </div>
-            <div class="about-item">
-              <div class="abt-text">
-                <p class="large-text">3+</p>
-                <p class="small-text">Working Experience <br /></p>
-              </div>
-            </div>
-            <div class="about-item">
-              <div class="abt-text">
-                <p class="large-text">+20</p>
-                <p class="small-text">Projects Leaded <br /></p>
+                <p class="small-text">Projects Led</p>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- ---------- About: MY SKILLS (agrupadas por área, sin porcentajes) ---------- -->
         <div class="about-stats">
           <h4 class="stat-title">My Skills</h4>
-          <div class="progress-bars">
-            <div class="progress-bar">
-              <p class="prog-title">html5</p>
-              <div class="progress-con">
-                <p class="prog-text">80%</p>
-                <div class="progress">
-                  <span class="html"></span>
-                </div>
-              </div>
+          <div class="skill-groups">
+            <!-- Backend -->
+            <div class="skill-group">
+              <p class="skill-group-title">Backend</p>
+              <ul class="skill-tags">
+                <li>PHP (OOP)</li>
+                <li>Laravel</li>
+                <li>REST APIs</li>
+                <li>MySQL / MariaDB</li>
+                <li>PHPUnit</li>
+                <li>DDD</li>
+              </ul>
             </div>
-            <div class="progress-bar">
-              <p class="prog-title">css3</p>
-              <div class="progress-con">
-                <p class="prog-text">80%</p>
-                <div class="progress">
-                  <span class="css"></span>
-                </div>
-              </div>
+            <!-- Frontend -->
+            <div class="skill-group">
+              <p class="skill-group-title">Frontend</p>
+              <ul class="skill-tags">
+                <li>JavaScript</li>
+                <li>Vue.js</li>
+                <li>React</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Tailwind CSS</li>
+                <li>Bootstrap</li>
+                <li>jQuery</li>
+              </ul>
             </div>
-            <div class="progress-bar">
-              <p class="prog-title">javascript</p>
-              <div class="progress-con">
-                <p class="prog-text">60%</p>
-                <div class="progress">
-                  <span class="js"></span>
-                </div>
-              </div>
+            <!-- Servidores y herramientas -->
+            <div class="skill-group">
+              <p class="skill-group-title">Servers &amp; Tools</p>
+              <ul class="skill-tags">
+                <li>Linux</li>
+                <li>Apache</li>
+                <li>Git / GitHub</li>
+                <li>Composer</li>
+                <li>NPM</li>
+                <li>DNS &amp; SSL</li>
+                <li>OVH</li>
+                <li>Host Europe</li>
+              </ul>
             </div>
-            <div class="progress-bar">
-              <p class="prog-title">Php</p>
-              <div class="progress-con">
-                <p class="prog-text">60%</p>
-                <div class="progress">
-                  <span class="php"></span>
-                </div>
-              </div>
+            <!-- IA -->
+            <div class="skill-group">
+              <p class="skill-group-title">AI-Assisted Development</p>
+              <ul class="skill-tags">
+                <li>Claude API</li>
+                <li>Claude Code</li>
+                <li>GitHub Copilot</li>
+              </ul>
             </div>
-            <div class="progress-bar">
-              <p class="prog-title">Designing and Prototyping Tools</p>
-              <div class="progress-con">
-                <p class="prog-text">70%</p>
-                <div class="progress">
-                  <span class="tools"></span>
-                </div>
-              </div>
+            <!-- Integraciones -->
+            <div class="skill-group">
+              <p class="skill-group-title">Integrations</p>
+              <ul class="skill-tags">
+                <li>HubSpot</li>
+                <li>Pipeliner</li>
+                <li>Stripe</li>
+                <li>Chargebee</li>
+                <li>SparkPost</li>
+                <li>Ongage</li>
+              </ul>
             </div>
-            <div class="progress-bar">
-              <p class="prog-title">Googling</p>
-              <div class="progress-con">
-                <p class="prog-text">100%</p>
-                <div class="progress">
-                  <span class="google"></span>
-                </div>
-              </div>
-            </div>
-            <div class="progress-bar">
-              <p class="prog-title">Problem Solver</p>
-              <div class="progress-con">
-                <p class="prog-text">100%</p>
-                <div class="progress">
-                  <span class="psolver"></span>
-                </div>
-              </div>
-            </div>
-            <div class="progress-bar">
-              <p class="prog-title">Commited</p>
-              <div class="progress-con">
-                <p class="prog-text">100%</p>
-                <div class="progress">
-                  <span class="commited"></span>
-                </div>
-              </div>
+            <!-- Diseño -->
+            <div class="skill-group">
+              <p class="skill-group-title">Design &amp; Prototyping</p>
+              <ul class="skill-tags">
+                <li>Figma</li>
+                <li>Wireframing</li>
+                <li>Adobe Illustrator</li>
+                <li>Adobe InDesign</li>
+              </ul>
             </div>
           </div>
         </div>
+        <!-- ---------- Fin MY SKILLS ---------- -->
+
+        <!-- ---------- About: MY TIMELINE (experiencia y formación) ---------- -->
         <h4 class="stat-title">My Timeline</h4>
         <div class="timeline">
+          <!-- Timeline: BlueMediaAds (2022 - 2026) -->
           <div class="timeline-item">
             <div class="tl-icon">
               <i class="fas fa-briefcase"></i>
             </div>
-            <p class="tl-duration">2022 - 2026</p>
+            <p class="tl-duration">Oct 2022 - Mar 2026</p>
             <h5>
-              PHP Developer<span> - BLUEMEDIAADS, BARCELONA, SPAIN.</span>
+              Full-Stack Developer<span> - BlueMediaAds, Barcelona, Spain</span>
             </h5>
-            <p>
-              • Developed full-stack software using PHP and MySQL for backend,
-              with responsive front-end (BS4, CSS, JS, jQuery) • Implemented API
-              solutions (Web, REST and Third-Party) • Managed mass email
-              marketing infrastructure in Ongage, handling the full
-              deliverability lifecycle across multiple sending domains •
-              Configured and maintained servers on OVH and Host Europe as SMTP
-              relay via SparkPost, optimizing delivery rates and inbox placement
-              • Managed SSL certificate acquisition, renewal and installation
-              (Sectigo) across production and sending domains • Monitored and
-              analyzed IP/domain reputation, adjusting DNS configuration (SPF,
-              DKIM, DMARC) and resolving blacklisting incidents • Developed
-              websites with consistent branding identity, including workflows,
-              mockups and graphic presentations • Used Git/GitHub and package
-              managers (NPM, Composer) as part of standard development workflow;
-              wrote software documentation and tutorials (written and video)
-            </p>
+            <ul class="tl-list">
+              <li>
+                Built and maintained web applications in PHP (OOP) and
+                MySQL/MariaDB on a LAMP stack, with responsive front-end
+                (JavaScript, jQuery, Ajax, Bootstrap) and Git/GitHub version
+                control.
+              </li>
+              <li>
+                Built a real-estate CRM with role management, automatic lead
+                assignment and relational data modeling, integrated via API with
+                HubSpot, Pipeliner, Stripe and Chargebee, through to production.
+              </li>
+              <li>
+                Managed the Laravel data-intake API: onboarding new data
+                providers and monitoring the contact databases that fed
+                automated mass email campaigns across Europe.
+              </li>
+              <li>
+                Took autonomous ownership of production environments, reporting
+                directly to the CEO.
+              </li>
+              <li>
+                Managed servers and domains on OVH and Host Europe (DNS, SPF,
+                DKIM, DMARC, SSL/Sectigo) and the sending infrastructure on
+                SparkPost and Ongage.
+              </li>
+              <li>
+                Built landing pages and maintained WordPress sites, with
+                tracking set up through Google Tag Manager.
+              </li>
+              <li>
+                Debugged and resolved production issues, and wrote technical
+                documentation and internal tutorials.
+              </li>
+            </ul>
           </div>
+          <!-- Timeline: GaoTek internship (2022) -->
           <div class="timeline-item">
             <div class="tl-icon">
               <i class="fas fa-briefcase"></i>
             </div>
-            <p class="tl-duration">2022 - 2022</p>
+            <p class="tl-duration">Jun - Sep 2022</p>
             <h5>
-              Software Developer Intern<span> - GaoTek Inc., Remote.</span>
+              Software Developer Intern<span> - GAOTek Inc., Remote</span>
             </h5>
-            <p>
-              • Debugging and testing code • Documenting and testing new
-              software applications • Researching, investigating and fixing a
-              wide range of technical issues
-            </p>
+            <ul class="tl-list">
+              <li>
+                Debugged, tested and documented code across several
+                applications.
+              </li>
+              <li>
+                Researched, investigated and fixed a wide range of technical
+                issues.
+              </li>
+            </ul>
           </div>
+          <!-- Timeline: Mindroom diploma (2021 - 2023) -->
           <div class="timeline-item">
             <div class="tl-icon">
-              <i class="fas fa-briefcase"></i>
+              <i class="fas fa-graduation-cap"></i>
             </div>
             <p class="tl-duration">2021 - 2023</p>
             <h5>
               Website Development Diploma<span>
-                - Mindroom Innovation, Burleigh Heads, Australia.</span
+                - Mindroom Institute, Burleigh Heads, Australia</span
               >
             </h5>
-            <p>
-              • Front-End and Back-End development. • Responsive Web Apps
-              including the design, and coding of the front and backend. • Front
-              End HTML, CSS, JavaScript and BS4. • Backend Php, MySQL, Mongo DB.
-              • Frameworks: Django along with Python. • CMS: WordPress •
-              Wireframing: Wireframe, Figma and Adobe Illustrator. • Testing
-              against W3C standards, debugging and Performance testing.
-            </p>
+            <ul class="tl-list">
+              <li>
+                Responsive full-stack web apps, from design to front-end and
+                backend code.
+              </li>
+              <li>Front-end: HTML, CSS, JavaScript and Bootstrap.</li>
+              <li>Backend: PHP, MySQL and MongoDB.</li>
+              <li>Frameworks: Django (Python) and React. CMS: WordPress.</li>
+              <li>Wireframing with Figma and Adobe Illustrator.</li>
+              <li>W3C standards testing, debugging and performance testing.</li>
+            </ul>
           </div>
+          <!-- Timeline: Eagle Academy business certificate (2020) -->
           <div class="timeline-item">
             <div class="tl-icon">
-              <i class="fas fa-briefcase"></i>
+              <i class="fas fa-graduation-cap"></i>
             </div>
-            <p class="tl-duration">2020-2020</p>
+            <p class="tl-duration">2020</p>
             <h5>
-              Bussiness Certificate I<span>
-                - Eagle Academy, Burleigh Heads, Australia.</span
+              Business Certificate I<span>
+                - Eagle Academy, Burleigh Heads, Australia</span
               >
             </h5>
-            <p>
-              • Basic economics • Basic accounting • Administrative duties •
-              Managerial processes • Entrepreneurship.
-            </p>
+            <ul class="tl-list">
+              <li>
+                Basic economics and accounting, administrative and managerial
+                processes, and entrepreneurship.
+              </li>
+            </ul>
           </div>
+          <!-- Timeline: TVD Project Manager (2012 - 2018) -->
           <div class="timeline-item">
             <div class="tl-icon">
               <i class="fas fa-briefcase"></i>
             </div>
             <p class="tl-duration">2012 - 2018</p>
-            <h5>Project Manager<span> - TVD, BA Argentina</span></h5>
-            <p>
-              Audiovisual Production and Postproduction services. • Worked with
-              Adobe package tools and video formats and codecs, video delivery
-              protocols and player technologies. • Worked in partnership with
-              advertising agencies such as BBDO and Ogilvy.
-            </p>
+            <h5>Project Manager<span> - TVD, Buenos Aires, Argentina</span></h5>
+            <ul class="tl-list">
+              <li>
+                Coordinated audiovisual production and post-production projects.
+              </li>
+              <li>
+                Worked with the Adobe suite, video formats and codecs, delivery
+                protocols and player technologies.
+              </li>
+              <li>
+                Worked in partnership with advertising agencies such as BBDO and
+                Ogilvy.
+              </li>
+            </ul>
           </div>
+          <!-- Timeline: UBA Image and Sound Design -->
           <div class="timeline-item">
             <div class="tl-icon">
-              <i class="fas fa-briefcase"></i>
+              <i class="fas fa-graduation-cap"></i>
             </div>
-            <p class="tl-duration">2017 - 2014</p>
+            <p class="tl-duration">2007 - 2014</p>
             <h5>
-              Image and Sound Designer<span>
-                - Buenos Aires University, Argentina</span
+              Degree in Image and Sound Design<span>
+                - University of Buenos Aires, Argentina</span
               >
             </h5>
-            <p>
-              • Video and sound edition with Abode Premiere Pro and Final Cut. •
-              3D Animation with 3Ds Max. • Project Budgeting. • Industry
-              Standards. • Aesthetics concepts. • Cinema and art theory.
-            </p>
+            <ul class="tl-list">
+              <li>
+                Video and sound editing with Adobe Premiere Pro and Final Cut.
+              </li>
+              <li>3D animation with 3ds Max.</li>
+              <li>Project budgeting and industry standards.</li>
+              <li>Aesthetics, cinema and art theory.</li>
+            </ul>
           </div>
         </div>
+        <!-- ---------- Fin MY TIMELINE ---------- -->
       </section>
+      <!-- ================= FIN ABOUT ME ================= -->
+
+      <!-- ==================================================
+           PORTFOLIO / MY WORK (#portfolio)
+           ================================================== -->
       <section class="container" id="portfolio">
+        <!-- Portfolio: título e intro -->
         <div class="main-title">
           <h2>My <span>Work</span><span class="bg-text">My Work</span></h2>
         </div>
         <p class="port-text">
-          Here are some of my works that I have done in different programming
-          languages languages.
+          Personal projects and production work at BlueMediaAds, from full-stack
+          apps to payment integrations.
         </p>
 
         <div class="portfolios">
+          <!-- Proyecto: Order Normalizer Agent (en desarrollo) -->
           <div class="portfolio-item">
             <div class="image">
-              <img src="img/macondo.png" alt="Laravel" />
+              <img
+                src="img/order_normalizer_agent.png"
+                alt="Order Normalizer Agent interface normalizing a restaurant order"
+              />
+            </div>
+            <div class="hover-items">
+              <h3>Project Source</h3>
+              <div class="icons">
+                <a
+                  href="https://github.com/amarantak/order-normalizer-agent"
+                  class="icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Order Normalizer Agent source code on GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-text">
+              <h4>Order Normalizer Agent</h4>
+              <p>
+                Technologies: Laravel 12, Vue 3, Claude API, DDD, PHPUnit.<br />
+                Features: AI agent that normalizes restaurant orders from
+                multiple POS formats into a unified schema and detects
+                anomalies. Uses an agentic reason, validate and correct loop,
+                escalating to human review when the data doesn't add up.<br />
+                Start Date: 2026 (work in progress)<br />
+              </p>
+            </div>
+          </div>
+          <!-- Proyecto: Online Store (Macondo) -->
+          <div class="portfolio-item">
+            <div class="image">
+              <img src="img/macondo.png" alt="Macondo Cerámica online store" />
             </div>
             <div class="hover-items">
               <h3>Project Source</h3>
@@ -317,24 +437,27 @@
                   class="icon"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Macondo Cerámica source code on GitHub"
                 >
                   <i class="fab fa-github"></i>
                 </a>
               </div>
             </div>
             <div class="portfolio-text">
-              <h4>Online Store</h4>
+              <h4>Macondo Cerámica Online Store</h4>
               <p>
-                Tecnologies: OOP PHP, MySQL, Stripe API.<br />
-                Features: Online store with Admin section with CRUD
-                capabilities.<br />
+                Technologies: OOP PHP, PDO, MySQL, Stripe SDK.<br />
+                Features: Online store with payments and an admin section with
+                CRUD. Built from architecture to production, using Claude as a
+                development assistant.<br />
                 Start Date: 2026<br />
               </p>
             </div>
           </div>
+          <!-- Proyecto: Laravel Blog website -->
           <div class="portfolio-item">
             <div class="image">
-              <img src="img/laravel.png" alt="Laravel" />
+              <img src="img/laravel.png" alt="Laravel blog website" />
             </div>
             <div class="hover-items">
               <h3>Project Source</h3>
@@ -344,80 +467,88 @@
                   class="icon"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Laravel blog source code on GitHub"
                 >
                   <i class="fab fa-github"></i>
                 </a>
               </div>
             </div>
             <div class="portfolio-text">
-              <h4>Laravel Blog website</h4>
+              <h4>Laravel Blog Website</h4>
               <p>
-                Tecnologies: Laravel 8, MySQL, BS4, CSS.<br />
-                Features:Multipage website with Auth access, MySQL and CRUD
-                capabilties.<br />
+                Technologies: Laravel 8, MySQL, Bootstrap, CSS.<br />
+                Features: Multipage website with authentication, MySQL and
+                CRUD.<br />
                 Start Date: 2024<br />
               </p>
             </div>
           </div>
+          <!-- Proyecto: CRM app for BlueMediaAds (Instantcall) -->
           <div class="portfolio-item">
             <div class="image">
-              <img src="img/instantcall.jpg" alt="Instantcall" />
+              <img src="img/instantcall.jpg" alt="Instantcall CRM" />
             </div>
             <div class="hover-items">
-              <h3>Website Link</h3>
+              <h3>Video Demos</h3>
               <div class="icons">
                 <a
                   href="https://www.youtube.com/@instantcall"
                   class="icon"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Instantcall video demos on YouTube"
                 >
-                  <i class="fab fa-github"></i>
+                  <i class="fab fa-youtube"></i>
                 </a>
               </div>
             </div>
             <div class="portfolio-text">
-              <h4>CRM app for BlueMediaAds</h4>
+              <h4>Real-Estate CRM for BlueMediaAds</h4>
               <p>
-                Tecnologies: PHP, MySQL, API, BS4, CSS and JS.<br />
-                Features: Admin, Moderator and Agents access. Connect to CMR's.
-                I teamed up with a Sr. Dev.<br />
+                Technologies: PHP, MySQL, REST APIs, Bootstrap, CSS, JS.<br />
+                Features: Admin, moderator and agent roles, automatic lead
+                assignment, HubSpot and Pipeliner integrations, Stripe and
+                Chargebee billing. Built by me under a senior developer's
+                supervision, through to production.<br />
                 Start Date: 2023<br />
               </p>
             </div>
           </div>
+          <!-- Proyecto: Website for BlueMediaAds (Instantcall web) -->
           <div class="portfolio-item">
             <div class="image">
               <img
                 src="img/instantcall_web.png"
-                alt="Stranger Things Homepage"
+                alt="Instantcall website homepage"
               />
             </div>
             <div class="hover-items">
-              <h3>Website Link</h3>
+              <h3>Visit Website</h3>
               <div class="icons">
                 <a
                   href="https://instantcall.io/pages/index.php"
                   class="icon"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Visit the Instantcall website"
                 >
-                  <i class="fab fa-github"></i>
+                  <i class="fas fa-link"></i>
                 </a>
               </div>
             </div>
             <div class="portfolio-text">
               <h4>Website for BlueMediaAds</h4>
               <p>
-                Tecnologies: Bootstrap, Html,Css, Php,Js.<br />
+                Technologies: Bootstrap, HTML, CSS, PHP, JS.<br />
                 Features: Multipage responsive website with contact form.<br />
                 Start Date: 2024<br />
               </p>
             </div>
           </div>
+          <!-- Proyecto: PHP Checkout (Stripe) -->
           <div class="portfolio-item">
             <div class="image">
-              <img src="img/stripe.png" alt="Home View" />
+              <img src="img/stripe.png" alt="PHP checkout with Stripe" />
             </div>
             <div class="hover-items">
               <h3>Project Source</h3>
@@ -427,6 +558,7 @@
                   class="icon"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="PHP checkout source code on GitHub"
                 >
                   <i class="fab fa-github"></i>
                 </a>
@@ -435,16 +567,17 @@
             <div class="portfolio-text">
               <h4>PHP Checkout</h4>
               <p>
-                Tecnologies: OOP PHP, Stripe API, MySQL, JS, BS4.<br />
-                Features: Paypage with Admin view for Transactions and
-                Customers.<br />
+                Technologies: OOP PHP, Stripe API, MySQL, JS, Bootstrap.<br />
+                Features: Payment page with an admin view for transactions and
+                customers.<br />
                 Start Date: 2023<br />
               </p>
             </div>
           </div>
+          <!-- Proyecto: Gym Website Demo -->
           <div class="portfolio-item">
             <div class="image">
-              <img src="img/gym.png" alt="Gym Website Homepage" />
+              <img src="img/gym.png" alt="Gym website homepage" />
             </div>
             <div class="hover-items">
               <h3>Project Source</h3>
@@ -454,6 +587,7 @@
                   class="icon"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Gym website source code on GitHub"
                 >
                   <i class="fab fa-github"></i>
                 </a>
@@ -462,24 +596,27 @@
             <div class="portfolio-text">
               <h4>Gym Website Demo</h4>
               <p>
-                Tecnologies: Php, MyQSL, Html, Css.<br />
-                Features: Multipage with admin, staff and user section.<br />
-                Start Date: March 2022.<br />
+                Technologies: PHP, MySQL, HTML, CSS.<br />
+                Features: Multipage website with admin, staff and user
+                sections.<br />
+                Start Date: March 2022<br />
               </p>
             </div>
           </div>
+          <!-- Proyecto: Simple Website (3D) -->
           <div class="portfolio-item">
             <div class="image">
-              <img src="img/3d2.jpg" alt="3D Website" />
+              <img src="img/3d2.jpg" alt="3D themed website" />
             </div>
             <div class="hover-items">
               <h3>Project Source</h3>
               <div class="icons">
                 <a
-                  href="#"
+                  href="https://github.com/amarantak/3d-website"
                   class="icon"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Simple website source code"
                 >
                   <i class="fab fa-github"></i>
                 </a>
@@ -488,55 +625,69 @@
             <div class="portfolio-text">
               <h4>Simple Website</h4>
               <p>
-                Tecnologies: Html, Css, and Js.<br />
-                Features: Homepage, Contact Us and Projects Page.<br />
-                Start Date: Feb 2022.<br />
+                Technologies: HTML, CSS, JS.<br />
+                Features: Homepage, contact and projects pages.<br />
+                Start Date: Feb 2022<br />
               </p>
             </div>
           </div>
+          <!-- Proyecto: To do List App -->
           <div class="portfolio-item">
             <div class="image">
               <img
                 src="img/todo.jpg"
-                alt="Image of web app"
+                alt="To-do list web app"
                 class="fit-contain"
               />
             </div>
             <div class="hover-items">
               <h3>Project Source</h3>
               <div class="icons">
-                <a href="https://github.com/amarantak/ToDoList" class="icon">
+                <a
+                  href="https://github.com/amarantak/ToDoList"
+                  class="icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="To-do list source code on GitHub"
+                >
                   <i class="fab fa-github"></i>
                 </a>
               </div>
             </div>
             <div class="portfolio-text">
-              <h4>To do List App</h4>
+              <h4>To-Do List App</h4>
               <p>
-                Tecnologies: Html, css and Vanilla JavaScript.<br />
-                Features: Create, Read, Update and Delete functionalities.<br />
-                Start Date: January 2021.<br />
+                Technologies: HTML, CSS, vanilla JavaScript.<br />
+                Features: Create, read, update and delete tasks.<br />
+                Start Date: January 2021<br />
               </p>
             </div>
           </div>
         </div>
       </section>
+      <!-- ================= FIN PORTFOLIO ================= -->
 
+      <!-- ==================================================
+           CONTACT (#contact)
+           ================================================== -->
       <section class="container contact" id="contact">
         <div class="contact-container">
+          <!-- Contact: título -->
           <div class="main-title">
             <h2>
               Contact <span>Me</span><span class="bg-text">ContactMe</span>
             </h2>
           </div>
           <div class="contact-content-con">
+            <!-- Contact: datos de contacto (izquierda) -->
             <div class="left-contact">
               <h4>Contact me here</h4>
               <p>
-                I'm very happy you decided to contact me. Please fill the form
-                bellow with your message.
+                Thanks for stopping by. Send me a message with the form and I'll
+                get back to you soon.
               </p>
               <div class="contact-info">
+                <!-- Dato: ubicación -->
                 <div class="contact-item">
                   <div class="icon">
                     <i class="fas fa-map-marker-alt"></i>
@@ -544,6 +695,7 @@
                   </div>
                   <p>Barcelona, Spain</p>
                 </div>
+                <!-- Dato: email -->
                 <div class="contact-item">
                   <div class="icon">
                     <i class="fas fa-envelope"></i>
@@ -553,34 +705,42 @@
                     <span>amarantakruger@gmail.com</span>
                   </p>
                 </div>
+                <!-- Dato: idiomas -->
                 <div class="contact-item">
                   <div class="icon">
-                    <i class="fas fa-globe-africa"></i>
+                    <i class="fas fa-globe-europe"></i>
                     <span>Languages :</span>
                   </div>
                   <p>
-                    <span>English, Spanish</span>
+                    <span>Spanish, English, Catalan (basic)</span>
                   </p>
                 </div>
               </div>
+              <!-- Contact: iconos redes (LinkedIn, GitHub) -->
               <div class="contact-icons">
                 <div class="contact-icon">
                   <a
                     href="https://www.linkedin.com/in/amaranta-kruger-439649101/"
                     target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn profile"
                   >
                     <i class="fa-brands fa-linkedin-in"></i>
                   </a>
-                  <a href="https://github.com/amarantak" target="_blank">
+                  <a
+                    href="https://github.com/amarantak"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub profile"
+                  >
                     <i class="fab fa-github"></i>
                   </a>
                 </div>
               </div>
             </div>
+            <!-- Contact: formulario (derecha, vía formsubmit.co) -->
             <div class="right-contact">
               <form
-                id=""
-                class=""
                 method="POST"
                 action="https://formsubmit.co/amarantakruger@gmail.com"
               >
@@ -589,40 +749,47 @@
                   name="_next"
                   value="https://amarantakruger.com/thankyou.html"
                 />
+                <!-- Form: nombre + email -->
                 <div class="input-control i-c-2">
                   <input
                     type="text"
                     required
                     name="name"
                     placeholder="YOUR NAME"
+                    aria-label="Your name"
                   />
                   <input
                     type="email"
                     required
                     name="email"
                     placeholder="YOUR EMAIL"
+                    aria-label="Your email"
                   />
                 </div>
+                <!-- Form: asunto -->
                 <div class="input-control">
                   <input
                     type="text"
                     required
                     name="subject"
                     placeholder="ENTER SUBJECT"
+                    aria-label="Subject"
                   />
                 </div>
+                <!-- Form: mensaje -->
                 <div class="input-control">
                   <textarea
                     name="message"
                     required
-                    id=""
                     cols="15"
                     rows="8"
                     placeholder="Message Here..."
+                    aria-label="Message"
                   ></textarea>
                 </div>
+                <!-- Form: botón enviar -->
                 <div class="submit-btn">
-                  <button type="submit" id="" class="main-btn">
+                  <button type="submit" class="main-btn">
                     <span class="btn-text">Send Message</span>
                     <span class="btn-icon"
                       ><i class="fa-solid fa-paper-plane"></i
@@ -634,8 +801,12 @@
           </div>
         </div>
       </section>
+      <!-- ================= FIN CONTACT ================= -->
     </main>
 
+    <!-- ==================================================
+         NAVEGACIÓN LATERAL (botones de sección)
+         ================================================== -->
     <div class="controls">
       <div class="control control-1 active-btn" data-id="home">
         <i class="fas fa-home"></i>
@@ -650,9 +821,13 @@
         <i class="fas fa-envelope-open"></i>
       </div>
     </div>
+
+    <!-- ========== BOTÓN CAMBIO DE TEMA (claro/oscuro) ========== -->
     <div class="theme-btn">
       <i class="fas fa-adjust"></i>
     </div>
+
+    <!-- ========== SCRIPTS ========== -->
     <script src="js/app.js"></script>
   </body>
 </html>
